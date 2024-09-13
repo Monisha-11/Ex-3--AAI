@@ -35,7 +35,7 @@
 
 
 ## Program:
-python
+```python
 !pip install pgmpy
 !pip install networkx
 from pgmpy.models import BayesianNetwork
@@ -109,7 +109,7 @@ query_variable="Burglary"
 query_result=samples[query_variable].value_counts(normalize=True)
 print("\n Approximate probabilities of {}:".format(query_variable))
 print(query_result)
-
+```
 
 
 
